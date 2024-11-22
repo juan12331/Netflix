@@ -1,4 +1,4 @@
-import Netflix from 'Netflix\frontend\NetflixFrontend\src\images\Netflix-logo.png'
+import Netflix from '../../images/Netflix-logo.png'
 import './landingPage.css'
 
 
@@ -10,6 +10,7 @@ function Landingpage() {
         <div className='hero'>
           <nav>
             <img src={Netflix} alt="" />
+            
           </nav>
         </div>
       </div>
